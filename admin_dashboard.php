@@ -15,7 +15,7 @@ exit;
 }
 
 // Database connection
-require 'includes/config.php'; // Your database connection
+require 'config.php'; // Your database connection
 
 // Define log directory if not already defined
 if (!defined('LOG_DIR')) {
@@ -767,4 +767,5 @@ foreach ($entries as $entry) {
         });
     </script>
 </body>
+
 </html>
