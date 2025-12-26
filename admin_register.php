@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'includes/config.php'; // Include database connection
+require 'config.php'; // Include database connection
 
 $errors = [];
 
@@ -158,4 +158,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </div>
 </body>
+
 </html>
