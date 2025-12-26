@@ -246,7 +246,7 @@
                         popup: 'animated fadeInDown'
                     }
                 }).then(() => {
-                    window.location.href = 'index.php';
+                    window.location.href = 'homepage.php';
                 });
             } else if (alertMessage === "error") {
                 Swal.fire({
@@ -260,3 +260,4 @@
     </body>
 
     </html>
+
