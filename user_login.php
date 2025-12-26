@@ -1,7 +1,7 @@
 <?php
     // login.php
     session_start();
-    require 'includes/config.php'; // Include database connection
+    require 'config.php'; // Include database connection
 
     $alertMessage = ''; // Initialize a variable to store alert messages
 
@@ -258,4 +258,5 @@
             }
         </script>
     </body>
+
     </html>
