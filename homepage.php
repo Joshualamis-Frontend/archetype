@@ -5,7 +5,7 @@
         exit();
     }
     ?> 
-    <?php require_once 'includes/config.php'; ?>
+    <?php require_once 'config.php'; ?>
     
     
 <!DOCTYPE html>
@@ -1273,4 +1273,5 @@ footer::before {
         }
     </script>
 </body>
+
 </html>
