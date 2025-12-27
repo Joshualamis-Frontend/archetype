@@ -1410,7 +1410,7 @@ Welcome to ANINAG. Discover your unique archetype through our Filipino-based per
                 window.location.href = "user_login.php";
             } else if (result.dismiss === Swal.DismissReason.cancel) {
                 // Sign Up
-                window.location.href = "user_register.php";
+                window.location.href = "consent.php";
             }
         });
     }
@@ -1420,4 +1420,5 @@ Welcome to ANINAG. Discover your unique archetype through our Filipino-based per
 </body>
 
 </html>
+
 
